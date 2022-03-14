@@ -7,7 +7,7 @@ const urlencodedParser = bodyParser.urlencoded({ extended: true });
 app.use(express.json());
 mongoose
   .connect(
-    "mongodb+srv://surajkotte:suraj9640@cluster0.cbye4.mongodb.net/to-do?retryWrites=true&w=majority"
+    "mongodburl"
   )
   .then(console.log("database connectes"))
   .catch((err) => {
