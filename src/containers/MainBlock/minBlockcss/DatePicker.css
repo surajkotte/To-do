@@ -1,0 +1,19 @@
+.datePicker{
+width: 36%;
+}
+.datePicker button{
+    height: 0;
+    width: 0;
+    top: 0;
+}
+.css-1lwbda4-MuiStack-root{
+    width: 36%;
+}
+.MuiButtonBase-root {
+    height: 0;
+    width: 0;
+    top: 0;
+}
+.MuiInputLabel-root{
+   content: 'Schedule Date';
+}

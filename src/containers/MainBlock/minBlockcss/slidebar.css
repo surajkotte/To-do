@@ -1,0 +1,107 @@
+
+.slide{
+-moz-box-shadow: 5px 6px 23px 0px rgba(0,0,0,0.75);
+box-shadow: 5px 6px 23px 0px rgba(0,0,0,0.75);
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: aliceblue;
+    transition: 1s ease-in-out;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-top: 60px;
+}
+.slideBar{
+    margin-left: -30rem;
+}
+@media (max-width:755px) {
+    .top-fillers{
+        margin-top: 8rem;
+        padding: 0;
+        transition: 0s ease-in-out;
+        margin-left: 10px !important;
+    }
+}
+.top-fillers{
+    position: absolute;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    /* margin-left: 20%;
+    padding: 0; */
+}
+.top-fillers>li{
+    min-height: 24px;
+    font-size: 14px;
+    color: #333;
+    list-style: none;
+    cursor: pointer;
+    transition: color .1s ease-in,background-color .1s ease-in;
+    line-height: 1.25;
+    border-radius: 3px;
+    margin-left: 0;
+    display: block;
+    margin: 10px auto;
+}
+.spanclass{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    display: inline-block;
+    width: 8rem;
+    vertical-align: top;
+    min-height: 24px;
+    line-height: 24px;
+    word-break: break-all;
+    word-break: break-word;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Apple Color Emoji,Helvetica,Arial,sans-serif,Segoe UI Emoji,Segoe UI Symbol;
+}
+.svgDiv{
+    display: inline-block;
+}
+span svg{
+    position: absolute;
+}
+.spanicon{
+    width: 28px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    margin-top: -1px;
+    font-size: 14px;
+    color: #555;
+    font-size: 13px;
+}
+.top-fillers svg{
+    color: blue;
+}
+
+.top-fillers>li,.top-fillers>li a{
+    padding: 5px 16px 5px 5px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    /* padding: 10px; */
+    padding-right: 18px;
+    border-radius: 5px;
+
+}
+
+a:hover{
+    background: #eeeeee;
+}
+.SlideBarContent{
+    height: 100%;
+    width: 100%;
+    margin-left: 200px;
+    position: fixed;
+}
+.SlideBarContent .contents{
+    text-align: center;
+    margin-left: -215px;
+}
